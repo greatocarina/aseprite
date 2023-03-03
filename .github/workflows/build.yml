@@ -11,7 +11,7 @@ jobs:
         enable_ui: [on]
         include:
           - os: windows-latest
-            build_type: Debug
+            build_type: Release
             enable_ui: on
     steps:
     - uses: actions/checkout@v2
